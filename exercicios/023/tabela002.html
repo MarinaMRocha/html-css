@@ -12,6 +12,7 @@
         table{
             width: 450px;
             border-collapse: collapse;
+            position: relative;
         }
         caption{
             font-size: 1.5em;
@@ -27,12 +28,23 @@
             background-color: gray;
             color: white;
         }
+        thead tr th{
+            position: sticky;
+            top: 0;
+        }
+        tbody tr:nth-child(2n){         /*dentro da pseudo classe nth-child posso colocar tambem
+        ----------------------------------- odd = impar e even = par*/
+            background-color: lightgray;
+        }
         td.num{
             text-align: right;
         }
         tfoot{
             background-color: gray;
             color: white;
+        }
+        p{
+            line-height: 2em;
         }
     </style>
 </head>
@@ -177,5 +189,14 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nostrum vitae praesentium deleniti minus. Accusamus sit fugiat magni eius recusandae architecto animi rem reprehenderit repellendus impedit, ullam illum sapiente commodi? Lorem ipsum dolor sit amet consectetur, 
+    adipisicing elit. Atque alias reiciendis fuga possimus ab error assumenda repellendus voluptatibus ipsam vero itaque consectetur labore nobis sapiente, officia id dolor provident accusantium? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias culpa reiciendis, pariatur
+    natus repellendus officiis libero dolorem animi sint molestiae fuga quos ducimus et, accusantium corporis magnam sequi. Aliquid, dolores? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum harum explicabo mollitia molestias atque rerum, modi qui assumenda debitis rei
+    ciendis nam quidem! Aliquid incidunt quis consequatur molestiae itaque, quaerat vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ex modi quidem, est esse eum rem! Numquam repellendus ullam iure, fuga placeat nostrum! Cupiditate modi, dolorem autem perferendis 
+    labore cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolores dicta doloribus aliquam et eaque, repudiandae hic quibusdam, atque soluta magni temporibus. Hic saepe velit doloremque consectetur minus quaerat deserunt! Lorem ipsum dolor sit amet consectetur 
+    adipisicing elit. Quis odio, eligendi, sint assumenda nesciunt, recusandae similique facilis quod mollitia non impedit. Quisquam non consectetur, aliquam blanditiis maiores natus exercitationem. Dicta.Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita asperiores voluptas 
+    esse dolor sunt a quas optio cupiditate in magni praesentium hic beatae quam, consectetur ratione numquam necessitatibus delectus voluptate! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente vel magni incidunt assumenda ipsum doloribus sit, architecto quos animi fuga
+    libero harum quibusdam suscipit. Qui ipsam quidem sequi accusamus alias. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium eum iure corrupti, pariatur animi suscipit! Ipsa voluptates inventore autem quo, cupiditate excepturi laborum velit labore, quos suscipit officiis 
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, tempora corporis sapiente consectetur laudantium dignissimos officia totam ipsum perspiciatis quod aliquam quibusdam in labore laboriosam neque et ab voluptatum! Recusandae. ullam minus?</p>
 </body>
 </html>
