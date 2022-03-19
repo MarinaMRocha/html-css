@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+            padding: 15px;
+        }
+        th{
+            background-color: gray;
+            color: white;
+            border: 1px solid black;
+            padding: 15px;
+        }
+        col.cnome{
+            background-color: rgba(220, 20, 60, 0.541);
+        }
+        .csexo{
+            background-color: lightgreen;
+        }
+        .cidade{
+            background-color: rgba(255, 68, 0, 0.603)
+        }
+        .cprof{
+            background-color: rgba(0, 0, 255, 0.644);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissao</th>
+        </tr>
+        <tr>
+            <td>Ana Maria Luz</td>
+            <td>F</td>
+            <td>47</td>
+            <td>Medica</td>
+        </tr>
+        <tr>
+            <td>Pedro Paulo da Cunha</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Delegado</td>
+        </tr>
+        <tr>
+            <td>Henrique Lopez</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Empresario</td>
+        </tr>
+        <tr>
+            <td>Lucas Moreto</td>
+            <td>M</td>
+            <td>40</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Luiza da Rocha</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Nutricionista</td>
+        </tr>
+        <tr>
+            <td>Camila das Gracas</td>
+            <td>F</td>
+            <td>23</td>
+            <td>Professora</td>
+        </tr>
+        <tr>
+            <td>Brena Oliveira</td>
+            <td>F</td>
+            <td>26</td>
+            <td>Dentista</td>
+        </tr>
+    </table>
+</body>
+</html>
